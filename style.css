@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add your styling for each section here */
+  
+  .hero {
+    background-color: #246d1d;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .about,
+  .projects,
+  .contact,
+  .rangkuman {
+    margin-left: 80px;
+  }
+
+  .about-details,
+  .project-details,
+  .rangkuman-details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    display: none;
+  }
+
+  .contact-details{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .about-details p,
+  .project-details p,
+  .contact-details p,
+  .rangkuman-details p {
+    margin-bottom: 15px;
+  }
+
+  .contact-details ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .contact-details ul li {
+    margin-bottom: 8px;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .toggle-btn {
+    cursor: pointer;
+    background-color: #246d1d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  /* Add more styling as needed */
+  
+  

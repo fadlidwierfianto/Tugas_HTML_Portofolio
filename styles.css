@@ -26,7 +26,6 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
 }
 
 header h1 {
@@ -66,6 +65,7 @@ th, td {
 }
 
 th {
+    text-align: center;
     background-color: #3498db;
     color: white;
 }
@@ -86,7 +86,7 @@ footer {
     width: 100%;
 }
 
-#about-us {
+#about-me {
     background-color: white;
     padding: 20px;
     text-align: center;
@@ -100,14 +100,11 @@ footer {
     border: 1px #ccc solid;
 }
 
-#about-us h2 {
+#about-me h2 {
     color: #333;
 }
 
-#about-us p {
+#about-me p {
     color: #555; 
     text-align: justify;
 }
-
-
-
